@@ -2,7 +2,7 @@
 A fully interactive **Streamlit** web app that demonstrates multiple real-world **Machine Learning models** for a luxury instant delivery platform — including ETA prediction, customer segmentation, rider performance modeling, sentiment analysis, and more.
 
 🔗 **Live Demo:**  
-👉 
+👉 https://royalexpress.streamlit.app/
 
 ---
 
@@ -29,8 +29,3 @@ Predict future rider rating from speed, experience, order count, etc.
 
 ### **5. Sentiment Analysis on Delivery Reviews**
 Classify customer feedback as **Positive** or **Negative** using TF-IDF + Logistic Regression.
-
----
-
-# 📁 **Project Structure**
-

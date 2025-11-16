@@ -1,0 +1,501 @@
+product_id,product_name,category,brand,price,stock
+2001,Chanel Elite 0,Shoes,Prada,3674,33
+2002,Balenciaga Edition 1,Electronics,Bvlgari,8329,43
+2003,Bvlgari Classic 2,Watch,Louis Vuitton,3391,14
+2004,Gucci Edition 3,Shoes,Chanel,6195,13
+2005,Chanel Limited 4,Watch,Cartier,3958,5
+2006,Balenciaga Limited 5,Gourmet,Balenciaga,4950,49
+2007,Gucci Deluxe 6,Shoes,Rolex,3666,36
+2008,Louis Vuitton Limited 7,Electronics,Balenciaga,4239,49
+2009,Chanel Deluxe 8,Handbag,Dior,5948,31
+2010,Rolex Classic 9,Accessory,Hermes,2010,2
+2011,Louis Vuitton Deluxe 10,Watch,Bvlgari,2000,2
+2012,Gucci Deluxe 11,Shoes,Prada,2000,21
+2013,Dior Limited 12,Electronics,Rolex,2000,21
+2014,Gucci Deluxe 13,Shoes,Louis Vuitton,2000,9
+2015,Hermes Limited 14,Electronics,Louis Vuitton,5673,2
+2016,Gucci Edition 15,Electronics,Louis Vuitton,2201,11
+2017,Dior Limited 16,Electronics,Cartier,7803,28
+2018,Gucci Deluxe 17,Home Decor,Dior,5071,47
+2019,Gucci Classic 18,Accessory,Louis Vuitton,2000,16
+2020,Gucci Edition 19,Handbag,Louis Vuitton,8862,6
+2021,Bvlgari Edition 20,Handbag,Bvlgari,10196,12
+2022,Chanel Deluxe 21,Shoes,Dior,2009,1
+2023,Hermes Edition 22,Shoes,Chanel,7174,3
+2024,Cartier Signature 23,Electronics,Chanel,2274,9
+2025,Bvlgari Elite 24,Home Decor,Dior,5366,38
+2026,Bvlgari Classic 25,Electronics,Hermes,2000,23
+2027,Bvlgari Elite 26,Home Decor,Cartier,2000,16
+2028,Bvlgari Edition 27,Electronics,Rolex,3482,5
+2029,Chanel Elite 28,Watch,Balenciaga,4397,18
+2030,Bvlgari Elite 29,Watch,Bvlgari,3436,4
+2031,Chanel Edition 30,Gourmet,Gucci,2000,31
+2032,Louis Vuitton Classic 31,Electronics,Chanel,3429,9
+2033,Chanel Edition 32,Accessory,Dior,6263,8
+2034,Hermes Elite 33,Gourmet,Rolex,4720,26
+2035,Bvlgari Limited 34,Shoes,Dior,5792,12
+2036,Chanel Limited 35,Sunglasses,Balenciaga,2689,18
+2037,Balenciaga Elite 36,Electronics,Rolex,14109,20
+2038,Rolex Signature 37,Watch,Chanel,2000,23
+2039,Bvlgari Signature 38,Sunglasses,Louis Vuitton,7622,37
+2040,Prada Classic 39,Home Decor,Dior,14238,3
+2041,Gucci Deluxe 40,Sunglasses,Gucci,7577,23
+2042,Louis Vuitton Limited 41,Accessory,Chanel,4096,34
+2043,Rolex Signature 42,Electronics,Prada,3055,2
+2044,Cartier Deluxe 43,Handbag,Gucci,12487,3
+2045,Chanel Edition 44,Sunglasses,Hermes,2000,36
+2046,Chanel Elite 45,Handbag,Cartier,2053,39
+2047,Balenciaga Edition 46,Home Decor,Chanel,3436,47
+2048,Dior Elite 47,Gourmet,Louis Vuitton,14971,34
+2049,Prada Edition 48,Handbag,Chanel,6917,30
+2050,Prada Edition 49,Gourmet,Balenciaga,2056,43
+2051,Cartier Edition 50,Watch,Rolex,3717,24
+2052,Louis Vuitton Elite 51,Electronics,Dior,2827,39
+2053,Gucci Classic 52,Sunglasses,Rolex,2595,12
+2054,Louis Vuitton Deluxe 53,Watch,Rolex,11861,3
+2055,Balenciaga Classic 54,Watch,Chanel,2000,45
+2056,Prada Classic 55,Jewelry,Balenciaga,20908,13
+2057,Cartier Limited 56,Perfume,Dior,10357,12
+2058,Hermes Deluxe 57,Accessory,Dior,13118,26
+2059,Dior Limited 58,Gourmet,Rolex,3240,5
+2060,Prada Classic 59,Jewelry,Hermes,4294,16
+2061,Chanel Deluxe 60,Perfume,Cartier,2000,35
+2062,Chanel Signature 61,Accessory,Balenciaga,3065,39
+2063,Dior Signature 62,Gourmet,Hermes,7664,48
+2064,Bvlgari Signature 63,Electronics,Bvlgari,15779,34
+2065,Rolex Deluxe 64,Accessory,Bvlgari,2000,16
+2066,Cartier Classic 65,Sunglasses,Gucci,3537,40
+2067,Dior Edition 66,Watch,Rolex,4289,1
+2068,Hermes Limited 67,Perfume,Dior,2000,12
+2069,Prada Limited 68,Perfume,Chanel,8368,1
+2070,Hermes Deluxe 69,Perfume,Dior,2562,27
+2071,Rolex Elite 70,Gourmet,Dior,4122,42
+2072,Cartier Signature 71,Sunglasses,Louis Vuitton,3272,25
+2073,Cartier Deluxe 72,Accessory,Dior,2415,21
+2074,Rolex Edition 73,Watch,Gucci,4884,46
+2075,Bvlgari Deluxe 74,Sunglasses,Hermes,4048,42
+2076,Louis Vuitton Elite 75,Jewelry,Bvlgari,3517,2
+2077,Cartier Signature 76,Electronics,Dior,2551,34
+2078,Gucci Limited 77,Handbag,Dior,6552,11
+2079,Louis Vuitton Limited 78,Sunglasses,Louis Vuitton,21769,23
+2080,Chanel Limited 79,Jewelry,Balenciaga,5574,4
+2081,Dior Limited 80,Watch,Chanel,12046,19
+2082,Gucci Elite 81,Handbag,Balenciaga,2000,38
+2083,Rolex Classic 82,Handbag,Chanel,5665,38
+2084,Chanel Elite 83,Sunglasses,Cartier,2000,12
+2085,Chanel Elite 84,Perfume,Dior,2000,40
+2086,Gucci Elite 85,Shoes,Louis Vuitton,2526,44
+2087,Hermes Limited 86,Watch,Prada,14367,11
+2088,Prada Elite 87,Perfume,Rolex,11557,12
+2089,Cartier Deluxe 88,Watch,Bvlgari,6116,9
+2090,Prada Elite 89,Shoes,Hermes,2000,32
+2091,Balenciaga Signature 90,Electronics,Bvlgari,4119,39
+2092,Cartier Deluxe 91,Shoes,Hermes,6448,15
+2093,Prada Signature 92,Home Decor,Cartier,5756,44
+2094,Gucci Signature 93,Sunglasses,Balenciaga,2000,34
+2095,Balenciaga Classic 94,Sunglasses,Gucci,2206,2
+2096,Hermes Elite 95,Jewelry,Dior,4639,4
+2097,Rolex Deluxe 96,Perfume,Prada,7964,25
+2098,Hermes Edition 97,Jewelry,Hermes,2000,10
+2099,Hermes Signature 98,Home Decor,Rolex,4248,6
+2100,Balenciaga Elite 99,Shoes,Hermes,5590,9
+2101,Louis Vuitton Elite 100,Sunglasses,Gucci,10558,41
+2102,Bvlgari Elite 101,Gourmet,Bvlgari,9169,33
+2103,Balenciaga Deluxe 102,Shoes,Louis Vuitton,8303,2
+2104,Dior Deluxe 103,Shoes,Bvlgari,2392,7
+2105,Rolex Limited 104,Home Decor,Cartier,2000,30
+2106,Louis Vuitton Edition 105,Electronics,Louis Vuitton,3450,10
+2107,Gucci Elite 106,Watch,Bvlgari,12106,44
+2108,Rolex Edition 107,Home Decor,Rolex,17225,6
+2109,Prada Signature 108,Watch,Bvlgari,9316,44
+2110,Cartier Edition 109,Sunglasses,Rolex,7233,1
+2111,Chanel Deluxe 110,Home Decor,Rolex,6917,5
+2112,Gucci Edition 111,Watch,Louis Vuitton,2979,40
+2113,Prada Edition 112,Jewelry,Balenciaga,4372,31
+2114,Hermes Edition 113,Home Decor,Chanel,22074,19
+2115,Rolex Edition 114,Sunglasses,Dior,2104,33
+2116,Hermes Edition 115,Home Decor,Hermes,21021,49
+2117,Rolex Elite 116,Sunglasses,Chanel,3678,15
+2118,Balenciaga Limited 117,Home Decor,Gucci,16202,24
+2119,Gucci Signature 118,Watch,Balenciaga,2000,11
+2120,Dior Edition 119,Electronics,Chanel,8327,6
+2121,Cartier Edition 120,Accessory,Louis Vuitton,2532,38
+2122,Chanel Deluxe 121,Watch,Gucci,2000,16
+2123,Hermes Deluxe 122,Perfume,Prada,5983,44
+2124,Cartier Edition 123,Handbag,Balenciaga,12192,10
+2125,Bvlgari Signature 124,Electronics,Chanel,2297,5
+2126,Chanel Edition 125,Jewelry,Gucci,2000,22
+2127,Louis Vuitton Limited 126,Shoes,Prada,4525,26
+2128,Bvlgari Signature 127,Watch,Bvlgari,4543,45
+2129,Chanel Edition 128,Home Decor,Gucci,8050,5
+2130,Louis Vuitton Signature 129,Watch,Louis Vuitton,11552,37
+2131,Hermes Edition 130,Gourmet,Bvlgari,4659,1
+2132,Hermes Edition 131,Electronics,Louis Vuitton,26107,21
+2133,Hermes Signature 132,Accessory,Chanel,6014,19
+2134,Louis Vuitton Signature 133,Jewelry,Dior,3598,24
+2135,Rolex Classic 134,Gourmet,Chanel,2000,14
+2136,Cartier Signature 135,Sunglasses,Bvlgari,3880,48
+2137,Rolex Classic 136,Gourmet,Rolex,3631,28
+2138,Louis Vuitton Edition 137,Watch,Chanel,11664,7
+2139,Dior Elite 138,Jewelry,Bvlgari,7452,36
+2140,Louis Vuitton Edition 139,Watch,Gucci,2000,48
+2141,Hermes Signature 140,Sunglasses,Cartier,5739,32
+2142,Hermes Classic 141,Shoes,Chanel,8995,21
+2143,Bvlgari Classic 142,Jewelry,Gucci,19443,49
+2144,Rolex Limited 143,Shoes,Louis Vuitton,10924,46
+2145,Rolex Edition 144,Electronics,Balenciaga,9747,4
+2146,Gucci Signature 145,Electronics,Dior,5188,38
+2147,Gucci Signature 146,Shoes,Louis Vuitton,6971,17
+2148,Rolex Elite 147,Electronics,Louis Vuitton,15132,37
+2149,Louis Vuitton Classic 148,Jewelry,Bvlgari,2000,36
+2150,Louis Vuitton Signature 149,Home Decor,Rolex,3589,29
+2151,Louis Vuitton Classic 150,Perfume,Hermes,2452,30
+2152,Dior Edition 151,Electronics,Cartier,6914,9
+2153,Balenciaga Elite 152,Electronics,Rolex,14871,14
+2154,Prada Elite 153,Watch,Bvlgari,2872,41
+2155,Rolex Edition 154,Shoes,Dior,2000,47
+2156,Balenciaga Limited 155,Handbag,Cartier,3391,43
+2157,Louis Vuitton Deluxe 156,Accessory,Cartier,11183,17
+2158,Gucci Elite 157,Gourmet,Bvlgari,7973,22
+2159,Louis Vuitton Signature 158,Electronics,Prada,7225,32
+2160,Rolex Limited 159,Gourmet,Louis Vuitton,3820,15
+2161,Balenciaga Signature 160,Jewelry,Balenciaga,2000,37
+2162,Balenciaga Edition 161,Handbag,Prada,7815,34
+2163,Rolex Signature 162,Accessory,Bvlgari,2320,33
+2164,Balenciaga Deluxe 163,Shoes,Prada,35091,27
+2165,Balenciaga Limited 164,Perfume,Balenciaga,8213,1
+2166,Gucci Signature 165,Accessory,Bvlgari,2914,29
+2167,Prada Elite 166,Accessory,Bvlgari,2835,12
+2168,Dior Deluxe 167,Perfume,Cartier,4520,40
+2169,Balenciaga Edition 168,Home Decor,Prada,3962,15
+2170,Hermes Classic 169,Shoes,Gucci,13429,4
+2171,Chanel Edition 170,Watch,Chanel,5813,27
+2172,Prada Deluxe 171,Gourmet,Bvlgari,2544,38
+2173,Cartier Classic 172,Electronics,Prada,26941,44
+2174,Dior Classic 173,Accessory,Hermes,5138,19
+2175,Balenciaga Deluxe 174,Jewelry,Dior,9818,23
+2176,Prada Signature 175,Perfume,Hermes,2843,26
+2177,Dior Deluxe 176,Gourmet,Prada,6814,29
+2178,Dior Signature 177,Handbag,Louis Vuitton,6503,44
+2179,Gucci Classic 178,Perfume,Louis Vuitton,2000,26
+2180,Cartier Elite 179,Handbag,Prada,30144,25
+2181,Chanel Elite 180,Shoes,Cartier,15703,6
+2182,Louis Vuitton Limited 181,Accessory,Cartier,3438,41
+2183,Dior Signature 182,Jewelry,Bvlgari,2000,46
+2184,Cartier Limited 183,Electronics,Balenciaga,6720,37
+2185,Prada Limited 184,Handbag,Chanel,5314,4
+2186,Rolex Limited 185,Gourmet,Bvlgari,6769,22
+2187,Prada Deluxe 186,Home Decor,Hermes,5840,27
+2188,Prada Edition 187,Shoes,Chanel,7751,33
+2189,Hermes Elite 188,Home Decor,Hermes,18080,14
+2190,Bvlgari Signature 189,Shoes,Cartier,8195,31
+2191,Balenciaga Edition 190,Watch,Prada,2000,25
+2192,Balenciaga Deluxe 191,Gourmet,Balenciaga,16753,47
+2193,Balenciaga Signature 192,Home Decor,Hermes,21516,30
+2194,Cartier Signature 193,Jewelry,Cartier,83856,18
+2195,Gucci Signature 194,Accessory,Balenciaga,2000,8
+2196,Prada Deluxe 195,Perfume,Bvlgari,6116,28
+2197,Cartier Elite 196,Electronics,Prada,2000,38
+2198,Prada Limited 197,Accessory,Dior,8086,3
+2199,Rolex Elite 198,Accessory,Louis Vuitton,3001,2
+2200,Louis Vuitton Edition 199,Shoes,Rolex,27753,28
+2201,Hermes Elite 200,Jewelry,Balenciaga,2448,10
+2202,Cartier Elite 201,Shoes,Dior,2000,32
+2203,Balenciaga Edition 202,Sunglasses,Dior,3216,37
+2204,Dior Classic 203,Handbag,Balenciaga,2000,10
+2205,Gucci Limited 204,Electronics,Dior,9662,26
+2206,Bvlgari Limited 205,Handbag,Hermes,2000,32
+2207,Hermes Limited 206,Perfume,Dior,5042,20
+2208,Bvlgari Elite 207,Sunglasses,Cartier,2000,38
+2209,Bvlgari Limited 208,Gourmet,Chanel,3684,30
+2210,Chanel Signature 209,Perfume,Hermes,21570,37
+2211,Balenciaga Classic 210,Perfume,Dior,6799,45
+2212,Cartier Deluxe 211,Watch,Bvlgari,2259,1
+2213,Gucci Classic 212,Electronics,Louis Vuitton,4779,26
+2214,Balenciaga Signature 213,Shoes,Prada,4995,35
+2215,Cartier Edition 214,Jewelry,Dior,7520,10
+2216,Hermes Limited 215,Handbag,Gucci,2000,46
+2217,Bvlgari Signature 216,Perfume,Louis Vuitton,8378,17
+2218,Rolex Edition 217,Handbag,Bvlgari,2000,0
+2219,Dior Classic 218,Handbag,Cartier,2788,34
+2220,Chanel Limited 219,Gourmet,Dior,3167,34
+2221,Dior Signature 220,Electronics,Cartier,8691,30
+2222,Bvlgari Elite 221,Electronics,Dior,5016,27
+2223,Balenciaga Deluxe 222,Home Decor,Rolex,2000,38
+2224,Gucci Classic 223,Accessory,Chanel,2025,0
+2225,Hermes Elite 224,Electronics,Cartier,5877,24
+2226,Chanel Deluxe 225,Handbag,Chanel,4577,42
+2227,Bvlgari Signature 226,Shoes,Louis Vuitton,2918,37
+2228,Cartier Elite 227,Handbag,Rolex,3188,19
+2229,Rolex Signature 228,Shoes,Prada,9196,2
+2230,Dior Classic 229,Home Decor,Hermes,3084,1
+2231,Rolex Elite 230,Shoes,Chanel,4540,17
+2232,Balenciaga Signature 231,Electronics,Rolex,34646,43
+2233,Hermes Elite 232,Gourmet,Chanel,2000,9
+2234,Chanel Signature 233,Shoes,Balenciaga,2000,4
+2235,Chanel Deluxe 234,Handbag,Bvlgari,9949,8
+2236,Rolex Limited 235,Jewelry,Prada,2668,1
+2237,Rolex Deluxe 236,Electronics,Bvlgari,3691,33
+2238,Rolex Elite 237,Jewelry,Dior,2433,37
+2239,Bvlgari Elite 238,Sunglasses,Chanel,3890,30
+2240,Chanel Limited 239,Sunglasses,Dior,20716,9
+2241,Chanel Edition 240,Handbag,Gucci,10116,49
+2242,Gucci Edition 241,Sunglasses,Chanel,10679,11
+2243,Hermes Elite 242,Accessory,Rolex,2000,35
+2244,Prada Classic 243,Home Decor,Prada,2000,20
+2245,Bvlgari Elite 244,Electronics,Dior,2000,48
+2246,Hermes Limited 245,Jewelry,Chanel,2372,46
+2247,Prada Elite 246,Handbag,Gucci,11626,5
+2248,Prada Deluxe 247,Accessory,Bvlgari,7826,47
+2249,Cartier Limited 248,Handbag,Rolex,4026,48
+2250,Gucci Signature 249,Accessory,Balenciaga,4817,2
+2251,Prada Deluxe 250,Sunglasses,Chanel,2644,9
+2252,Gucci Elite 251,Sunglasses,Balenciaga,5909,4
+2253,Prada Classic 252,Shoes,Louis Vuitton,9792,45
+2254,Gucci Deluxe 253,Watch,Prada,2000,25
+2255,Gucci Limited 254,Handbag,Chanel,6436,20
+2256,Balenciaga Limited 255,Shoes,Cartier,11375,44
+2257,Dior Elite 256,Electronics,Gucci,3383,25
+2258,Balenciaga Edition 257,Shoes,Dior,9234,37
+2259,Cartier Edition 258,Perfume,Cartier,61895,43
+2260,Dior Deluxe 259,Sunglasses,Louis Vuitton,4474,25
+2261,Gucci Signature 260,Perfume,Prada,7002,7
+2262,Bvlgari Deluxe 261,Handbag,Bvlgari,2529,4
+2263,Dior Limited 262,Jewelry,Rolex,5786,14
+2264,Rolex Limited 263,Jewelry,Balenciaga,7437,15
+2265,Gucci Elite 264,Electronics,Louis Vuitton,5857,0
+2266,Dior Deluxe 265,Shoes,Dior,2000,15
+2267,Louis Vuitton Deluxe 266,Jewelry,Rolex,5918,36
+2268,Louis Vuitton Deluxe 267,Accessory,Bvlgari,18324,2
+2269,Hermes Elite 268,Accessory,Dior,7360,46
+2270,Hermes Classic 269,Electronics,Gucci,11682,30
+2271,Balenciaga Edition 270,Home Decor,Balenciaga,3971,12
+2272,Prada Classic 271,Sunglasses,Cartier,9652,15
+2273,Prada Limited 272,Shoes,Chanel,6319,42
+2274,Hermes Signature 273,Handbag,Louis Vuitton,2088,20
+2275,Gucci Classic 274,Gourmet,Chanel,6546,1
+2276,Prada Classic 275,Gourmet,Rolex,2013,26
+2277,Rolex Classic 276,Gourmet,Chanel,2781,37
+2278,Chanel Edition 277,Jewelry,Cartier,5828,25
+2279,Louis Vuitton Classic 278,Home Decor,Hermes,6422,37
+2280,Gucci Deluxe 279,Home Decor,Rolex,2000,45
+2281,Bvlgari Classic 280,Shoes,Balenciaga,12690,24
+2282,Balenciaga Edition 281,Shoes,Dior,8224,10
+2283,Gucci Edition 282,Home Decor,Balenciaga,2606,7
+2284,Balenciaga Limited 283,Electronics,Chanel,2000,7
+2285,Chanel Edition 284,Shoes,Prada,4314,32
+2286,Dior Edition 285,Electronics,Rolex,3290,6
+2287,Gucci Classic 286,Perfume,Dior,5442,37
+2288,Cartier Deluxe 287,Accessory,Bvlgari,3545,20
+2289,Hermes Deluxe 288,Sunglasses,Gucci,2000,7
+2290,Balenciaga Elite 289,Shoes,Balenciaga,3465,20
+2291,Rolex Limited 290,Home Decor,Balenciaga,3733,19
+2292,Rolex Deluxe 291,Accessory,Rolex,8693,7
+2293,Chanel Elite 292,Accessory,Prada,2622,45
+2294,Balenciaga Classic 293,Watch,Chanel,22266,30
+2295,Gucci Edition 294,Home Decor,Chanel,2000,49
+2296,Chanel Edition 295,Sunglasses,Rolex,15995,28
+2297,Balenciaga Classic 296,Home Decor,Balenciaga,4016,47
+2298,Hermes Edition 297,Shoes,Dior,10653,8
+2299,Louis Vuitton Edition 298,Handbag,Gucci,5281,14
+2300,Dior Signature 299,Perfume,Rolex,13706,29
+2301,Gucci Elite 300,Electronics,Dior,3468,25
+2302,Chanel Elite 301,Handbag,Dior,2000,9
+2303,Louis Vuitton Elite 302,Perfume,Bvlgari,17649,28
+2304,Dior Deluxe 303,Handbag,Cartier,4438,15
+2305,Chanel Signature 304,Electronics,Hermes,5999,35
+2306,Prada Elite 305,Jewelry,Gucci,14932,19
+2307,Cartier Classic 306,Home Decor,Louis Vuitton,2000,44
+2308,Prada Limited 307,Handbag,Prada,8400,36
+2309,Prada Limited 308,Shoes,Hermes,2890,21
+2310,Gucci Classic 309,Sunglasses,Bvlgari,4364,6
+2311,Prada Signature 310,Gourmet,Gucci,5245,22
+2312,Chanel Limited 311,Shoes,Chanel,2000,40
+2313,Chanel Elite 312,Electronics,Hermes,2438,39
+2314,Balenciaga Edition 313,Sunglasses,Chanel,16580,28
+2315,Gucci Limited 314,Shoes,Prada,10911,15
+2316,Louis Vuitton Classic 315,Accessory,Chanel,4645,37
+2317,Balenciaga Limited 316,Home Decor,Prada,6117,27
+2318,Prada Elite 317,Sunglasses,Gucci,3771,47
+2319,Bvlgari Signature 318,Accessory,Balenciaga,16663,37
+2320,Balenciaga Elite 319,Shoes,Prada,4104,30
+2321,Bvlgari Limited 320,Perfume,Dior,6055,13
+2322,Chanel Limited 321,Watch,Louis Vuitton,13786,32
+2323,Balenciaga Elite 322,Perfume,Louis Vuitton,2441,8
+2324,Rolex Limited 323,Home Decor,Rolex,19988,26
+2325,Bvlgari Limited 324,Sunglasses,Louis Vuitton,2000,23
+2326,Prada Limited 325,Sunglasses,Rolex,21305,12
+2327,Chanel Edition 326,Home Decor,Louis Vuitton,3514,25
+2328,Balenciaga Deluxe 327,Accessory,Prada,3950,28
+2329,Chanel Limited 328,Watch,Dior,2000,48
+2330,Gucci Edition 329,Shoes,Balenciaga,3264,42
+2331,Bvlgari Deluxe 330,Electronics,Chanel,2000,27
+2332,Cartier Limited 331,Perfume,Bvlgari,2844,27
+2333,Dior Limited 332,Perfume,Louis Vuitton,4343,7
+2334,Prada Signature 333,Gourmet,Balenciaga,11638,22
+2335,Dior Signature 334,Watch,Balenciaga,5924,28
+2336,Dior Classic 335,Electronics,Prada,6483,4
+2337,Rolex Classic 336,Perfume,Gucci,2000,41
+2338,Louis Vuitton Elite 337,Electronics,Gucci,2225,6
+2339,Chanel Limited 338,Shoes,Louis Vuitton,24806,41
+2340,Hermes Classic 339,Sunglasses,Bvlgari,2536,35
+2341,Prada Classic 340,Electronics,Louis Vuitton,21820,40
+2342,Prada Elite 341,Perfume,Louis Vuitton,3949,26
+2343,Hermes Elite 342,Accessory,Rolex,4925,45
+2344,Gucci Signature 343,Watch,Dior,12879,1
+2345,Rolex Deluxe 344,Home Decor,Dior,15440,24
+2346,Cartier Limited 345,Handbag,Bvlgari,4448,8
+2347,Prada Elite 346,Jewelry,Rolex,3465,26
+2348,Bvlgari Deluxe 347,Jewelry,Balenciaga,4674,0
+2349,Balenciaga Classic 348,Handbag,Rolex,6662,22
+2350,Cartier Deluxe 349,Electronics,Louis Vuitton,10962,9
+2351,Rolex Classic 350,Watch,Gucci,4934,41
+2352,Dior Signature 351,Electronics,Hermes,8578,24
+2353,Louis Vuitton Deluxe 352,Home Decor,Bvlgari,21472,2
+2354,Chanel Elite 353,Watch,Balenciaga,6927,5
+2355,Balenciaga Edition 354,Handbag,Prada,6506,5
+2356,Balenciaga Limited 355,Electronics,Hermes,2000,1
+2357,Cartier Classic 356,Gourmet,Hermes,2000,17
+2358,Prada Classic 357,Perfume,Rolex,6971,22
+2359,Balenciaga Edition 358,Accessory,Chanel,4513,1
+2360,Hermes Limited 359,Sunglasses,Hermes,3092,11
+2361,Hermes Deluxe 360,Accessory,Louis Vuitton,6119,21
+2362,Balenciaga Edition 361,Home Decor,Cartier,4655,36
+2363,Rolex Deluxe 362,Electronics,Gucci,13562,19
+2364,Hermes Classic 363,Shoes,Gucci,5311,38
+2365,Louis Vuitton Classic 364,Watch,Cartier,2509,23
+2366,Balenciaga Signature 365,Electronics,Dior,11982,47
+2367,Chanel Elite 366,Watch,Louis Vuitton,4042,19
+2368,Dior Limited 367,Sunglasses,Prada,7894,0
+2369,Balenciaga Deluxe 368,Gourmet,Hermes,3198,0
+2370,Rolex Signature 369,Accessory,Dior,2738,16
+2371,Cartier Elite 370,Perfume,Louis Vuitton,5302,0
+2372,Bvlgari Limited 371,Sunglasses,Rolex,4972,44
+2373,Hermes Limited 372,Sunglasses,Gucci,7569,29
+2374,Dior Signature 373,Accessory,Dior,3859,40
+2375,Bvlgari Signature 374,Sunglasses,Bvlgari,2000,46
+2376,Gucci Elite 375,Shoes,Hermes,3329,2
+2377,Balenciaga Deluxe 376,Shoes,Hermes,10041,45
+2378,Gucci Classic 377,Jewelry,Prada,3761,10
+2379,Bvlgari Limited 378,Jewelry,Chanel,3937,23
+2380,Rolex Limited 379,Shoes,Bvlgari,11941,21
+2381,Hermes Classic 380,Handbag,Hermes,2590,43
+2382,Rolex Elite 381,Gourmet,Balenciaga,2000,44
+2383,Chanel Deluxe 382,Watch,Bvlgari,4253,25
+2384,Balenciaga Elite 383,Gourmet,Hermes,3179,12
+2385,Gucci Classic 384,Home Decor,Cartier,2060,0
+2386,Rolex Limited 385,Sunglasses,Bvlgari,4197,23
+2387,Gucci Elite 386,Perfume,Louis Vuitton,7649,9
+2388,Gucci Elite 387,Sunglasses,Bvlgari,4874,34
+2389,Rolex Edition 388,Gourmet,Prada,6479,23
+2390,Balenciaga Deluxe 389,Shoes,Rolex,25136,27
+2391,Rolex Deluxe 390,Accessory,Rolex,3610,35
+2392,Gucci Deluxe 391,Home Decor,Rolex,6314,15
+2393,Balenciaga Edition 392,Shoes,Louis Vuitton,3108,39
+2394,Rolex Deluxe 393,Gourmet,Dior,2295,15
+2395,Rolex Limited 394,Accessory,Rolex,2903,16
+2396,Gucci Classic 395,Perfume,Gucci,3194,14
+2397,Louis Vuitton Limited 396,Gourmet,Louis Vuitton,6792,15
+2398,Hermes Limited 397,Watch,Dior,40708,14
+2399,Prada Elite 398,Electronics,Gucci,2580,33
+2400,Rolex Edition 399,Accessory,Gucci,3378,10
+2401,Louis Vuitton Limited 400,Gourmet,Gucci,4643,0
+2402,Prada Classic 401,Shoes,Balenciaga,7018,14
+2403,Bvlgari Elite 402,Watch,Prada,6230,25
+2404,Dior Signature 403,Handbag,Prada,15610,3
+2405,Dior Edition 404,Accessory,Louis Vuitton,2000,42
+2406,Chanel Classic 405,Watch,Gucci,2000,4
+2407,Chanel Edition 406,Shoes,Cartier,3145,34
+2408,Prada Signature 407,Gourmet,Bvlgari,13195,12
+2409,Chanel Limited 408,Sunglasses,Dior,2000,9
+2410,Balenciaga Deluxe 409,Perfume,Prada,2000,10
+2411,Gucci Edition 410,Sunglasses,Rolex,8218,17
+2412,Louis Vuitton Classic 411,Electronics,Louis Vuitton,6120,33
+2413,Chanel Signature 412,Watch,Dior,2000,38
+2414,Rolex Limited 413,Electronics,Louis Vuitton,2024,40
+2415,Hermes Elite 414,Perfume,Cartier,2053,41
+2416,Prada Edition 415,Watch,Balenciaga,5429,49
+2417,Prada Deluxe 416,Jewelry,Balenciaga,2797,22
+2418,Cartier Signature 417,Shoes,Gucci,7667,6
+2419,Louis Vuitton Edition 418,Watch,Balenciaga,2000,38
+2420,Rolex Edition 419,Shoes,Louis Vuitton,2273,2
+2421,Bvlgari Deluxe 420,Sunglasses,Rolex,2000,11
+2422,Louis Vuitton Signature 421,Home Decor,Gucci,3902,6
+2423,Chanel Limited 422,Accessory,Hermes,3028,48
+2424,Bvlgari Edition 423,Home Decor,Dior,10077,25
+2425,Cartier Elite 424,Gourmet,Cartier,2000,32
+2426,Louis Vuitton Limited 425,Accessory,Gucci,5120,36
+2427,Hermes Deluxe 426,Accessory,Louis Vuitton,8123,47
+2428,Dior Signature 427,Handbag,Dior,26134,14
+2429,Louis Vuitton Edition 428,Accessory,Rolex,3186,1
+2430,Dior Deluxe 429,Perfume,Chanel,6581,40
+2431,Rolex Limited 430,Home Decor,Cartier,2000,6
+2432,Prada Deluxe 431,Sunglasses,Louis Vuitton,2000,31
+2433,Dior Elite 432,Shoes,Cartier,10512,3
+2434,Cartier Limited 433,Gourmet,Prada,4890,19
+2435,Balenciaga Limited 434,Accessory,Chanel,14195,49
+2436,Bvlgari Deluxe 435,Gourmet,Dior,2000,35
+2437,Cartier Signature 436,Sunglasses,Balenciaga,7847,31
+2438,Rolex Edition 437,Gourmet,Louis Vuitton,26422,27
+2439,Chanel Limited 438,Sunglasses,Cartier,7171,12
+2440,Gucci Signature 439,Accessory,Dior,6304,0
+2441,Prada Classic 440,Sunglasses,Balenciaga,4953,34
+2442,Bvlgari Edition 441,Accessory,Rolex,2000,47
+2443,Hermes Elite 442,Handbag,Rolex,16648,29
+2444,Balenciaga Elite 443,Handbag,Cartier,2836,35
+2445,Chanel Elite 444,Sunglasses,Gucci,7739,24
+2446,Gucci Signature 445,Handbag,Prada,2000,15
+2447,Rolex Edition 446,Shoes,Gucci,2000,18
+2448,Cartier Edition 447,Shoes,Prada,17883,0
+2449,Bvlgari Signature 448,Handbag,Louis Vuitton,3595,4
+2450,Dior Elite 449,Handbag,Hermes,18178,21
+2451,Gucci Limited 450,Jewelry,Cartier,4581,23
+2452,Gucci Edition 451,Jewelry,Bvlgari,2000,42
+2453,Bvlgari Classic 452,Accessory,Cartier,10969,44
+2454,Dior Limited 453,Sunglasses,Chanel,2890,36
+2455,Chanel Deluxe 454,Electronics,Balenciaga,9217,35
+2456,Hermes Signature 455,Electronics,Chanel,5028,35
+2457,Dior Elite 456,Handbag,Rolex,2000,3
+2458,Bvlgari Signature 457,Gourmet,Prada,5698,35
+2459,Louis Vuitton Deluxe 458,Handbag,Balenciaga,35476,17
+2460,Balenciaga Classic 459,Jewelry,Rolex,7659,49
+2461,Cartier Elite 460,Accessory,Balenciaga,4667,15
+2462,Cartier Classic 461,Handbag,Gucci,12937,40
+2463,Cartier Elite 462,Home Decor,Rolex,5941,17
+2464,Dior Classic 463,Gourmet,Gucci,5935,21
+2465,Bvlgari Elite 464,Home Decor,Gucci,2000,1
+2466,Chanel Signature 465,Accessory,Balenciaga,6066,20
+2467,Louis Vuitton Limited 466,Accessory,Dior,12480,35
+2468,Chanel Edition 467,Shoes,Chanel,2316,43
+2469,Hermes Deluxe 468,Watch,Rolex,17713,38
+2470,Rolex Deluxe 469,Home Decor,Bvlgari,4525,46
+2471,Dior Classic 470,Shoes,Dior,2211,38
+2472,Louis Vuitton Signature 471,Jewelry,Chanel,12063,28
+2473,Bvlgari Limited 472,Perfume,Rolex,3797,25
+2474,Louis Vuitton Elite 473,Gourmet,Prada,9736,20
+2475,Gucci Edition 474,Perfume,Chanel,3780,16
+2476,Louis Vuitton Edition 475,Sunglasses,Bvlgari,4657,15
+2477,Hermes Edition 476,Jewelry,Cartier,7663,30
+2478,Cartier Elite 477,Jewelry,Louis Vuitton,6386,8
+2479,Bvlgari Signature 478,Perfume,Gucci,2000,30
+2480,Cartier Signature 479,Home Decor,Louis Vuitton,2000,13
+2481,Prada Elite 480,Watch,Dior,11344,48
+2482,Louis Vuitton Limited 481,Home Decor,Cartier,4364,36
+2483,Balenciaga Elite 482,Perfume,Gucci,3068,1
+2484,Balenciaga Signature 483,Sunglasses,Rolex,2000,47
+2485,Gucci Deluxe 484,Home Decor,Dior,2000,45
+2486,Gucci Signature 485,Electronics,Bvlgari,2000,13
+2487,Hermes Deluxe 486,Home Decor,Balenciaga,4487,32
+2488,Cartier Signature 487,Accessory,Rolex,2868,34
+2489,Rolex Deluxe 488,Shoes,Chanel,2059,38
+2490,Hermes Elite 489,Gourmet,Balenciaga,4622,46
+2491,Dior Elite 490,Home Decor,Dior,6820,19
+2492,Cartier Deluxe 491,Watch,Chanel,32334,1
+2493,Prada Signature 492,Watch,Bvlgari,2000,40
+2494,Hermes Deluxe 493,Home Decor,Louis Vuitton,13953,18
+2495,Chanel Signature 494,Handbag,Chanel,11799,36
+2496,Prada Edition 495,Jewelry,Louis Vuitton,2438,17
+2497,Cartier Deluxe 496,Home Decor,Gucci,5901,15
+2498,Hermes Edition 497,Jewelry,Prada,3256,3
+2499,Dior Signature 498,Electronics,Hermes,5809,11
+2500,Prada Classic 499,Perfume,Rolex,19115,28

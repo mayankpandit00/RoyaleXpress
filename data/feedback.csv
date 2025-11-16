@@ -1,0 +1,501 @@
+feedback_id,order_id,rating,review,feedback_time
+5001,4001,4.9,Not happy with delay.,2025-03-14 05:18:00
+5002,4002,4.2,Impressed by the premium handling.,2025-05-01 06:49:00
+5003,4003,4.6,"Fast delivery, excellent packaging.",2025-01-24 08:20:00
+5004,4004,4.6,"Fast delivery, excellent packaging.",2025-05-21 09:40:00
+5005,4005,4.6,Not happy with delay.,2025-03-23 19:36:00
+5006,4006,4.9,"Packaging top-notch, will order again.",2025-01-08 04:16:00
+5007,4007,4.0,Product was great but delivery delayed.,2025-04-04 09:24:00
+5008,4008,4.1,"Packaging top-notch, will order again.",2025-02-06 20:00:00
+5009,4009,3.8,"Order was cancelled, disappointed.",2025-01-05 16:07:00
+5010,4010,4.4,"Order was cancelled, disappointed.",2025-01-25 00:52:00
+5011,4011,4.1,Satisfied with service.,2025-05-02 23:49:00
+5012,4012,3.2,"Order was cancelled, disappointed.",2025-05-11 20:20:00
+5013,4013,4.2,Satisfied with service.,2025-02-28 21:46:00
+5014,4014,3.6,"Fast delivery, excellent packaging.",2025-01-11 22:27:00
+5015,4015,4.0,Impressed by the premium handling.,2025-01-31 13:02:00
+5016,4016,4.5,On-time and professional rider.,2025-04-05 16:09:00
+5017,4017,4.3,Product was great but delivery delayed.,2025-04-18 08:01:00
+5018,4018,4.2,Satisfied with service.,2025-05-09 06:56:00
+5019,4019,4.3,Good but expected faster.,2025-03-27 22:08:00
+5020,4020,4.4,Impressed by the premium handling.,2025-03-10 12:46:00
+5021,4021,4.1,"Amazing experience, five stars.",2025-01-27 01:17:00
+5022,4022,5.0,Good but expected faster.,2025-04-26 14:25:00
+5023,4023,5.0,Impressed by the premium handling.,2025-04-04 08:42:00
+5024,4024,4.7,Good but expected faster.,2025-04-02 03:39:00
+5025,4025,4.7,Not happy with delay.,2025-01-03 10:55:00
+5026,4026,5.0,Good but expected faster.,2025-02-26 06:11:00
+5027,4027,5.0,Satisfied with service.,2025-04-24 13:59:00
+5028,4028,3.7,Impressed by the premium handling.,2025-02-04 13:31:00
+5029,4029,5.0,"Amazing experience, five stars.",2025-02-27 08:17:00
+5030,4030,5.0,"Order was cancelled, disappointed.",2025-03-23 06:19:00
+5031,4031,5.0,Good but expected faster.,2025-01-09 04:16:00
+5032,4032,4.9,"Amazing experience, five stars.",2025-03-08 16:48:00
+5033,4033,4.8,Impressed by the premium handling.,2025-05-10 19:23:00
+5034,4034,4.7,"Amazing experience, five stars.",2025-01-17 03:07:00
+5035,4035,4.7,On-time and professional rider.,2025-02-20 19:58:00
+5036,4036,4.8,On-time and professional rider.,2025-01-29 21:51:00
+5037,4037,5.0,Good but expected faster.,2025-02-28 12:34:00
+5038,4038,4.9,Good but expected faster.,2025-01-16 04:40:00
+5039,4039,5.0,Good but expected faster.,2025-01-16 08:43:00
+5040,4040,4.1,Product was great but delivery delayed.,2025-01-07 20:48:00
+5041,4041,4.3,Not happy with delay.,2025-01-26 09:51:00
+5042,4042,5.0,"Amazing experience, five stars.",2025-05-13 01:20:00
+5043,4043,4.5,"Packaging top-notch, will order again.",2025-04-14 15:16:00
+5044,4044,5.0,"Fast delivery, excellent packaging.",2025-04-09 20:51:00
+5045,4045,4.7,Good but expected faster.,2025-01-31 11:30:00
+5046,4046,4.4,Satisfied with service.,2025-03-26 02:24:00
+5047,4047,4.9,On-time and professional rider.,2025-01-11 10:45:00
+5048,4048,4.7,On-time and professional rider.,2025-02-23 03:57:00
+5049,4049,4.9,"Order was cancelled, disappointed.",2025-04-17 02:25:00
+5050,4050,4.7,"Fast delivery, excellent packaging.",2025-05-07 04:24:00
+5051,4051,4.6,"Amazing experience, five stars.",2025-04-03 02:47:00
+5052,4052,4.5,Impressed by the premium handling.,2025-03-18 13:58:00
+5053,4053,5.0,"Fast delivery, excellent packaging.",2025-02-17 15:02:00
+5054,4054,5.0,Not happy with delay.,2025-04-05 23:51:00
+5055,4055,4.8,Good but expected faster.,2025-03-24 05:23:00
+5056,4056,3.1,Satisfied with service.,2025-03-03 00:09:00
+5057,4057,4.9,"Amazing experience, five stars.",2025-05-14 21:42:00
+5058,4058,5.0,"Amazing experience, five stars.",2025-05-07 18:12:00
+5059,4059,4.2,Good but expected faster.,2025-04-07 13:08:00
+5060,4060,5.0,Not happy with delay.,2025-03-29 14:01:00
+5061,4061,5.0,Good but expected faster.,2025-01-30 11:12:00
+5062,4062,4.8,Good but expected faster.,2025-04-08 14:13:00
+5063,4063,5.0,"Fast delivery, excellent packaging.",2025-03-08 23:30:00
+5064,4064,4.5,Satisfied with service.,2025-04-18 22:14:00
+5065,4065,5.0,"Amazing experience, five stars.",2025-02-22 22:41:00
+5066,4066,5.0,"Order was cancelled, disappointed.",2025-05-13 08:05:00
+5067,4067,4.1,Good but expected faster.,2025-01-12 13:04:00
+5068,4068,4.3,Product was great but delivery delayed.,2025-02-15 21:11:00
+5069,4069,4.6,Impressed by the premium handling.,2025-03-11 21:59:00
+5070,4070,4.7,Good but expected faster.,2025-01-17 18:09:00
+5071,4071,5.0,Good but expected faster.,2025-04-13 01:11:00
+5072,4072,4.2,"Amazing experience, five stars.",2025-03-22 07:26:00
+5073,4073,5.0,On-time and professional rider.,2025-05-13 01:43:00
+5074,4074,4.0,"Packaging top-notch, will order again.",2025-03-16 20:56:00
+5075,4075,5.0,Impressed by the premium handling.,2025-02-13 18:24:00
+5076,4076,4.3,On-time and professional rider.,2025-03-14 07:54:00
+5077,4077,3.8,"Fast delivery, excellent packaging.",2025-02-15 07:40:00
+5078,4078,4.8,Product was great but delivery delayed.,2025-01-12 21:12:00
+5079,4079,4.5,"Packaging top-notch, will order again.",2025-01-05 01:46:00
+5080,4080,4.0,Impressed by the premium handling.,2025-05-17 23:04:00
+5081,4081,4.2,On-time and professional rider.,2025-01-28 04:53:00
+5082,4082,5.0,Satisfied with service.,2025-04-03 15:09:00
+5083,4083,5.0,Satisfied with service.,2025-05-14 07:59:00
+5084,4084,5.0,Not happy with delay.,2025-04-11 00:02:00
+5085,4085,4.5,Good but expected faster.,2025-01-11 19:45:00
+5086,4086,4.8,Product was great but delivery delayed.,2025-01-20 08:59:00
+5087,4087,3.7,"Packaging top-notch, will order again.",2025-02-01 03:51:00
+5088,4088,4.1,Impressed by the premium handling.,2025-05-05 21:45:00
+5089,4089,4.3,Satisfied with service.,2025-03-05 01:28:00
+5090,4090,4.7,Product was great but delivery delayed.,2025-03-30 06:47:00
+5091,4091,4.4,"Packaging top-notch, will order again.",2025-03-06 01:49:00
+5092,4092,5.0,Not happy with delay.,2025-01-08 08:32:00
+5093,4093,5.0,Satisfied with service.,2025-02-01 14:14:00
+5094,4094,4.8,"Amazing experience, five stars.",2025-01-13 05:03:00
+5095,4095,4.6,Satisfied with service.,2025-04-02 01:16:00
+5096,4096,4.2,"Order was cancelled, disappointed.",2025-03-02 01:45:00
+5097,4097,4.8,"Amazing experience, five stars.",2025-01-09 13:11:00
+5098,4098,4.3,Product was great but delivery delayed.,2025-02-17 08:47:00
+5099,4099,3.9,Not happy with delay.,2025-01-07 20:26:00
+5100,4100,3.6,On-time and professional rider.,2025-03-24 13:59:00
+5101,4101,4.4,"Fast delivery, excellent packaging.",2025-04-02 18:39:00
+5102,4102,3.2,Good but expected faster.,2025-04-30 02:52:00
+5103,4103,4.6,Good but expected faster.,2025-05-11 12:59:00
+5104,4104,4.9,Satisfied with service.,2025-04-09 18:57:00
+5105,4105,4.2,Impressed by the premium handling.,2025-02-23 09:03:00
+5106,4106,4.3,"Amazing experience, five stars.",2025-05-07 00:02:00
+5107,4107,4.3,"Order was cancelled, disappointed.",2025-01-12 00:01:00
+5108,4108,4.4,Satisfied with service.,2025-05-15 08:34:00
+5109,4109,3.9,Not happy with delay.,2025-03-08 11:12:00
+5110,4110,5.0,"Fast delivery, excellent packaging.",2025-03-06 12:42:00
+5111,4111,4.9,On-time and professional rider.,2025-01-13 05:44:00
+5112,4112,4.0,"Fast delivery, excellent packaging.",2025-01-13 23:29:00
+5113,4113,5.0,"Order was cancelled, disappointed.",2025-01-31 00:43:00
+5114,4114,4.9,"Fast delivery, excellent packaging.",2025-02-02 00:00:00
+5115,4115,5.0,"Fast delivery, excellent packaging.",2025-03-01 17:26:00
+5116,4116,4.6,Product was great but delivery delayed.,2025-01-09 17:18:00
+5117,4117,4.0,Not happy with delay.,2025-01-12 11:19:00
+5118,4118,3.8,Not happy with delay.,2025-02-25 17:36:00
+5119,4119,4.8,"Packaging top-notch, will order again.",2025-05-09 14:38:00
+5120,4120,4.2,Satisfied with service.,2025-05-08 22:33:00
+5121,4121,4.2,Impressed by the premium handling.,2025-02-16 13:59:00
+5122,4122,4.8,"Packaging top-notch, will order again.",2025-05-08 00:11:00
+5123,4123,4.7,Not happy with delay.,2025-04-01 00:16:00
+5124,4124,4.7,Good but expected faster.,2025-02-10 09:38:00
+5125,4125,4.9,Satisfied with service.,2025-03-21 01:57:00
+5126,4126,4.8,"Order was cancelled, disappointed.",2025-02-10 07:39:00
+5127,4127,5.0,Product was great but delivery delayed.,2025-02-26 15:07:00
+5128,4128,4.7,On-time and professional rider.,2025-04-16 08:31:00
+5129,4129,4.8,Good but expected faster.,2025-02-27 19:51:00
+5130,4130,4.3,Not happy with delay.,2025-01-17 01:29:00
+5131,4131,4.4,Satisfied with service.,2025-02-25 14:28:00
+5132,4132,3.3,Not happy with delay.,2025-02-15 17:28:00
+5133,4133,4.5,"Amazing experience, five stars.",2025-03-12 07:20:00
+5134,4134,4.7,"Packaging top-notch, will order again.",2025-02-25 04:45:00
+5135,4135,5.0,On-time and professional rider.,2025-02-09 23:07:00
+5136,4136,5.0,On-time and professional rider.,2025-03-15 07:30:00
+5137,4137,4.7,Impressed by the premium handling.,2025-03-01 12:51:00
+5138,4138,4.0,"Amazing experience, five stars.",2025-04-10 00:47:00
+5139,4139,4.8,"Fast delivery, excellent packaging.",2025-05-06 16:53:00
+5140,4140,4.1,"Amazing experience, five stars.",2025-01-28 15:28:00
+5141,4141,4.4,On-time and professional rider.,2025-03-03 15:26:00
+5142,4142,4.7,Good but expected faster.,2025-02-19 16:17:00
+5143,4143,4.7,Impressed by the premium handling.,2025-05-14 21:09:00
+5144,4144,4.9,"Order was cancelled, disappointed.",2025-01-11 09:18:00
+5145,4145,3.3,Good but expected faster.,2025-04-14 10:40:00
+5146,4146,4.9,Satisfied with service.,2025-02-20 20:44:00
+5147,4147,4.6,"Fast delivery, excellent packaging.",2025-05-12 07:54:00
+5148,4148,4.5,"Packaging top-notch, will order again.",2025-01-08 11:56:00
+5149,4149,5.0,"Order was cancelled, disappointed.",2025-02-03 13:37:00
+5150,4150,4.4,Good but expected faster.,2025-01-23 00:34:00
+5151,4151,5.0,Satisfied with service.,2025-03-26 06:40:00
+5152,4152,4.5,Not happy with delay.,2025-01-14 20:17:00
+5153,4153,5.0,Product was great but delivery delayed.,2025-01-10 18:18:00
+5154,4154,5.0,"Fast delivery, excellent packaging.",2025-03-31 03:49:00
+5155,4155,4.2,"Packaging top-notch, will order again.",2025-05-05 15:41:00
+5156,4156,4.6,Impressed by the premium handling.,2025-02-21 23:56:00
+5157,4157,4.5,"Amazing experience, five stars.",2025-01-01 15:20:00
+5158,4158,3.6,Product was great but delivery delayed.,2025-02-18 16:22:00
+5159,4159,4.5,"Fast delivery, excellent packaging.",2025-04-06 17:42:00
+5160,4160,5.0,"Order was cancelled, disappointed.",2025-04-11 12:12:00
+5161,4161,5.0,Not happy with delay.,2025-05-15 05:25:00
+5162,4162,5.0,Impressed by the premium handling.,2025-03-03 07:29:00
+5163,4163,5.0,On-time and professional rider.,2025-04-24 09:26:00
+5164,4164,4.3,Good but expected faster.,2025-03-24 14:54:00
+5165,4165,4.6,Good but expected faster.,2025-03-27 08:40:00
+5166,4166,5.0,Impressed by the premium handling.,2025-02-27 16:59:00
+5167,4167,4.9,On-time and professional rider.,2025-02-16 00:28:00
+5168,4168,4.8,Good but expected faster.,2025-05-16 21:43:00
+5169,4169,4.0,"Fast delivery, excellent packaging.",2025-03-26 05:13:00
+5170,4170,5.0,Impressed by the premium handling.,2025-01-09 09:24:00
+5171,4171,4.5,Impressed by the premium handling.,2025-01-03 19:48:00
+5172,4172,4.5,"Order was cancelled, disappointed.",2025-03-24 19:59:00
+5173,4173,4.8,On-time and professional rider.,2025-03-29 02:00:00
+5174,4174,4.6,"Order was cancelled, disappointed.",2025-05-07 12:21:00
+5175,4175,5.0,On-time and professional rider.,2025-01-24 03:01:00
+5176,4176,5.0,"Order was cancelled, disappointed.",2025-02-05 07:49:00
+5177,4177,4.8,Impressed by the premium handling.,2025-04-22 06:30:00
+5178,4178,4.3,"Amazing experience, five stars.",2025-04-21 02:05:00
+5179,4179,4.8,"Amazing experience, five stars.",2025-03-11 06:22:00
+5180,4180,4.4,"Amazing experience, five stars.",2025-01-09 09:49:00
+5181,4181,5.0,Impressed by the premium handling.,2025-05-12 09:22:00
+5182,4182,4.6,Good but expected faster.,2025-01-03 03:16:00
+5183,4183,4.7,Not happy with delay.,2025-04-28 03:41:00
+5184,4184,4.2,"Packaging top-notch, will order again.",2025-04-07 14:43:00
+5185,4185,3.8,Not happy with delay.,2025-03-03 23:21:00
+5186,4186,4.7,"Amazing experience, five stars.",2025-03-02 16:32:00
+5187,4187,4.1,Good but expected faster.,2025-02-16 18:02:00
+5188,4188,4.7,Impressed by the premium handling.,2025-01-27 11:02:00
+5189,4189,4.6,Satisfied with service.,2025-03-06 23:27:00
+5190,4190,4.2,Good but expected faster.,2025-04-27 03:44:00
+5191,4191,4.5,Satisfied with service.,2025-04-04 15:18:00
+5192,4192,3.7,Impressed by the premium handling.,2025-02-04 02:30:00
+5193,4193,3.5,"Fast delivery, excellent packaging.",2025-04-22 06:41:00
+5194,4194,4.4,On-time and professional rider.,2025-03-03 17:33:00
+5195,4195,5.0,"Packaging top-notch, will order again.",2025-01-12 20:50:00
+5196,4196,4.4,Not happy with delay.,2025-03-22 04:17:00
+5197,4197,4.8,"Order was cancelled, disappointed.",2025-02-12 20:24:00
+5198,4198,3.8,"Order was cancelled, disappointed.",2025-02-27 08:36:00
+5199,4199,3.8,On-time and professional rider.,2025-05-10 07:05:00
+5200,4200,5.0,Good but expected faster.,2025-01-15 09:46:00
+5201,4201,4.8,"Order was cancelled, disappointed.",2025-03-01 12:12:00
+5202,4202,4.6,Product was great but delivery delayed.,2025-02-25 10:11:00
+5203,4203,4.4,"Order was cancelled, disappointed.",2025-05-11 09:54:00
+5204,4204,4.9,Impressed by the premium handling.,2025-01-31 12:18:00
+5205,4205,4.8,On-time and professional rider.,2025-02-09 09:54:00
+5206,4206,4.9,"Packaging top-notch, will order again.",2025-01-20 13:24:00
+5207,4207,4.6,On-time and professional rider.,2025-01-16 11:04:00
+5208,4208,5.0,"Packaging top-notch, will order again.",2025-03-06 23:22:00
+5209,4209,5.0,Product was great but delivery delayed.,2025-05-14 01:11:00
+5210,4210,5.0,"Order was cancelled, disappointed.",2025-03-13 14:01:00
+5211,4211,4.5,On-time and professional rider.,2025-02-15 18:00:00
+5212,4212,5.0,Satisfied with service.,2025-03-01 19:12:00
+5213,4213,4.7,"Amazing experience, five stars.",2025-01-13 01:23:00
+5214,4214,5.0,Product was great but delivery delayed.,2025-01-08 21:11:00
+5215,4215,4.9,Good but expected faster.,2025-02-11 06:32:00
+5216,4216,4.9,Satisfied with service.,2025-03-13 14:42:00
+5217,4217,4.3,"Packaging top-notch, will order again.",2025-04-12 21:59:00
+5218,4218,4.3,On-time and professional rider.,2025-02-23 01:19:00
+5219,4219,4.0,"Packaging top-notch, will order again.",2025-05-10 02:08:00
+5220,4220,4.8,"Packaging top-notch, will order again.",2025-04-15 13:32:00
+5221,4221,5.0,Product was great but delivery delayed.,2025-03-09 02:34:00
+5222,4222,4.7,Satisfied with service.,2025-04-25 03:36:00
+5223,4223,5.0,On-time and professional rider.,2025-03-18 06:17:00
+5224,4224,4.9,"Order was cancelled, disappointed.",2025-01-17 22:41:00
+5225,4225,4.7,"Fast delivery, excellent packaging.",2025-03-03 14:14:00
+5226,4226,5.0,Not happy with delay.,2025-02-24 08:48:00
+5227,4227,3.8,Not happy with delay.,2025-01-09 07:53:00
+5228,4228,4.2,Product was great but delivery delayed.,2025-05-14 22:25:00
+5229,4229,3.0,Good but expected faster.,2025-02-27 08:44:00
+5230,4230,4.5,Impressed by the premium handling.,2025-01-05 04:18:00
+5231,4231,4.8,"Fast delivery, excellent packaging.",2025-04-05 13:51:00
+5232,4232,4.8,On-time and professional rider.,2025-01-23 17:05:00
+5233,4233,4.4,Not happy with delay.,2025-02-14 08:34:00
+5234,4234,5.0,Good but expected faster.,2025-04-20 00:22:00
+5235,4235,4.5,Impressed by the premium handling.,2025-03-26 08:41:00
+5236,4236,4.4,Satisfied with service.,2025-02-22 16:47:00
+5237,4237,4.8,On-time and professional rider.,2025-03-28 04:24:00
+5238,4238,4.6,"Packaging top-notch, will order again.",2025-02-23 07:21:00
+5239,4239,3.8,Good but expected faster.,2025-01-06 23:36:00
+5240,4240,5.0,On-time and professional rider.,2025-05-17 16:01:00
+5241,4241,5.0,"Fast delivery, excellent packaging.",2025-05-03 14:02:00
+5242,4242,4.7,"Packaging top-notch, will order again.",2025-05-14 20:29:00
+5243,4243,4.8,"Fast delivery, excellent packaging.",2025-01-17 06:44:00
+5244,4244,4.7,"Amazing experience, five stars.",2025-01-06 20:39:00
+5245,4245,5.0,Not happy with delay.,2025-05-02 00:02:00
+5246,4246,4.2,Impressed by the premium handling.,2025-01-02 20:12:00
+5247,4247,5.0,Good but expected faster.,2025-04-11 18:00:00
+5248,4248,5.0,"Packaging top-notch, will order again.",2025-04-14 07:16:00
+5249,4249,5.0,Not happy with delay.,2025-01-14 21:19:00
+5250,4250,4.9,Product was great but delivery delayed.,2025-03-19 16:03:00
+5251,4251,5.0,"Fast delivery, excellent packaging.",2025-05-10 16:53:00
+5252,4252,4.6,"Amazing experience, five stars.",2025-03-06 17:55:00
+5253,4253,4.2,"Fast delivery, excellent packaging.",2025-04-28 17:27:00
+5254,4254,5.0,On-time and professional rider.,2025-02-04 22:06:00
+5255,4255,4.4,Satisfied with service.,2025-04-22 17:35:00
+5256,4256,5.0,"Amazing experience, five stars.",2025-02-01 00:53:00
+5257,4257,4.5,"Amazing experience, five stars.",2025-05-20 23:54:00
+5258,4258,5.0,Impressed by the premium handling.,2025-04-08 10:31:00
+5259,4259,4.6,Good but expected faster.,2025-02-22 15:52:00
+5260,4260,5.0,Product was great but delivery delayed.,2025-01-18 16:47:00
+5261,4261,5.0,Product was great but delivery delayed.,2025-01-24 21:04:00
+5262,4262,5.0,Impressed by the premium handling.,2025-02-14 17:20:00
+5263,4263,4.2,"Fast delivery, excellent packaging.",2025-02-08 22:39:00
+5264,4264,4.5,"Order was cancelled, disappointed.",2025-02-22 08:47:00
+5265,4265,4.3,Not happy with delay.,2025-02-08 04:31:00
+5266,4266,4.9,"Order was cancelled, disappointed.",2025-03-27 00:30:00
+5267,4267,4.3,On-time and professional rider.,2025-05-06 23:29:00
+5268,4268,3.7,Product was great but delivery delayed.,2025-03-14 13:47:00
+5269,4269,5.0,Good but expected faster.,2025-02-11 15:32:00
+5270,4270,4.3,Satisfied with service.,2025-01-12 17:06:00
+5271,4271,4.8,"Fast delivery, excellent packaging.",2025-05-14 12:05:00
+5272,4272,5.0,Good but expected faster.,2025-03-24 15:22:00
+5273,4273,4.8,Good but expected faster.,2025-04-03 20:06:00
+5274,4274,4.5,"Packaging top-notch, will order again.",2025-05-08 16:19:00
+5275,4275,4.4,"Amazing experience, five stars.",2025-04-10 04:17:00
+5276,4276,5.0,Not happy with delay.,2025-04-27 21:20:00
+5277,4277,4.7,"Amazing experience, five stars.",2025-01-15 05:06:00
+5278,4278,4.3,Good but expected faster.,2025-03-08 14:17:00
+5279,4279,5.0,Impressed by the premium handling.,2025-05-04 06:50:00
+5280,4280,4.6,"Order was cancelled, disappointed.",2025-02-13 02:29:00
+5281,4281,5.0,"Packaging top-notch, will order again.",2025-04-28 13:56:00
+5282,4282,4.6,"Amazing experience, five stars.",2025-01-30 22:19:00
+5283,4283,5.0,On-time and professional rider.,2025-01-15 20:59:00
+5284,4284,5.0,Satisfied with service.,2025-02-28 22:41:00
+5285,4285,4.6,Satisfied with service.,2025-02-06 06:32:00
+5286,4286,4.6,Not happy with delay.,2025-05-01 04:08:00
+5287,4287,4.9,On-time and professional rider.,2025-03-14 16:17:00
+5288,4288,4.5,"Amazing experience, five stars.",2025-05-12 01:06:00
+5289,4289,4.9,"Amazing experience, five stars.",2025-05-11 22:27:00
+5290,4290,4.5,Good but expected faster.,2025-03-27 11:57:00
+5291,4291,5.0,"Amazing experience, five stars.",2025-01-08 00:49:00
+5292,4292,4.3,On-time and professional rider.,2025-04-04 22:31:00
+5293,4293,4.5,Satisfied with service.,2025-04-11 13:20:00
+5294,4294,4.0,Good but expected faster.,2025-02-08 03:20:00
+5295,4295,4.5,"Fast delivery, excellent packaging.",2025-04-19 06:15:00
+5296,4296,5.0,On-time and professional rider.,2025-02-05 08:33:00
+5297,4297,3.9,Impressed by the premium handling.,2025-04-25 19:33:00
+5298,4298,5.0,"Amazing experience, five stars.",2025-04-23 16:30:00
+5299,4299,5.0,Satisfied with service.,2025-04-02 16:29:00
+5300,4300,4.2,"Order was cancelled, disappointed.",2025-03-11 23:29:00
+5301,4301,5.0,"Amazing experience, five stars.",2025-02-09 09:14:00
+5302,4302,4.2,Impressed by the premium handling.,2025-03-30 07:55:00
+5303,4303,4.4,Satisfied with service.,2025-03-16 01:57:00
+5304,4304,4.4,Not happy with delay.,2025-02-07 18:26:00
+5305,4305,4.7,"Amazing experience, five stars.",2025-02-11 20:48:00
+5306,4306,4.0,Good but expected faster.,2025-02-16 07:13:00
+5307,4307,4.7,"Packaging top-notch, will order again.",2025-02-07 03:54:00
+5308,4308,4.5,On-time and professional rider.,2025-04-14 19:31:00
+5309,4309,3.5,Impressed by the premium handling.,2025-04-20 14:09:00
+5310,4310,4.4,"Amazing experience, five stars.",2025-02-24 14:45:00
+5311,4311,4.4,"Fast delivery, excellent packaging.",2025-01-07 09:23:00
+5312,4312,4.5,"Order was cancelled, disappointed.",2025-01-22 05:15:00
+5313,4313,5.0,Satisfied with service.,2025-02-17 16:43:00
+5314,4314,4.0,Impressed by the premium handling.,2025-01-19 20:58:00
+5315,4315,4.2,On-time and professional rider.,2025-02-18 19:41:00
+5316,4316,5.0,"Amazing experience, five stars.",2025-04-01 18:18:00
+5317,4317,5.0,"Fast delivery, excellent packaging.",2025-05-04 15:20:00
+5318,4318,5.0,Satisfied with service.,2025-03-01 13:15:00
+5319,4319,4.3,On-time and professional rider.,2025-01-04 19:31:00
+5320,4320,4.7,Satisfied with service.,2025-01-12 19:28:00
+5321,4321,4.8,On-time and professional rider.,2025-02-16 08:56:00
+5322,4322,4.8,"Amazing experience, five stars.",2025-01-31 05:47:00
+5323,4323,4.9,"Packaging top-notch, will order again.",2025-05-16 13:34:00
+5324,4324,5.0,Product was great but delivery delayed.,2025-03-02 12:05:00
+5325,4325,5.0,Good but expected faster.,2025-05-02 17:04:00
+5326,4326,4.8,"Packaging top-notch, will order again.",2025-02-01 01:33:00
+5327,4327,4.8,Product was great but delivery delayed.,2025-03-30 19:51:00
+5328,4328,5.0,"Amazing experience, five stars.",2025-03-03 11:53:00
+5329,4329,4.3,"Amazing experience, five stars.",2025-01-14 03:33:00
+5330,4330,5.0,"Amazing experience, five stars.",2025-04-28 22:04:00
+5331,4331,3.7,Product was great but delivery delayed.,2025-03-09 02:34:00
+5332,4332,4.5,"Fast delivery, excellent packaging.",2025-03-11 10:55:00
+5333,4333,4.2,Impressed by the premium handling.,2025-04-23 06:45:00
+5334,4334,5.0,Product was great but delivery delayed.,2025-02-15 04:29:00
+5335,4335,4.5,"Order was cancelled, disappointed.",2025-04-10 03:32:00
+5336,4336,5.0,Impressed by the premium handling.,2025-04-02 16:13:00
+5337,4337,4.6,"Order was cancelled, disappointed.",2025-02-02 11:04:00
+5338,4338,5.0,On-time and professional rider.,2025-04-11 02:16:00
+5339,4339,5.0,Good but expected faster.,2025-03-29 15:01:00
+5340,4340,5.0,Good but expected faster.,2025-04-12 04:30:00
+5341,4341,4.2,Good but expected faster.,2025-01-02 06:06:00
+5342,4342,4.2,Not happy with delay.,2025-01-31 12:17:00
+5343,4343,4.5,Product was great but delivery delayed.,2025-05-07 23:24:00
+5344,4344,4.7,"Fast delivery, excellent packaging.",2025-01-18 21:35:00
+5345,4345,5.0,On-time and professional rider.,2025-02-20 16:05:00
+5346,4346,4.9,"Amazing experience, five stars.",2025-03-16 08:39:00
+5347,4347,5.0,Product was great but delivery delayed.,2025-05-12 12:47:00
+5348,4348,4.4,"Order was cancelled, disappointed.",2025-01-15 10:08:00
+5349,4349,3.7,"Order was cancelled, disappointed.",2025-01-22 08:34:00
+5350,4350,2.9,Impressed by the premium handling.,2025-05-11 05:27:00
+5351,4351,4.9,"Amazing experience, five stars.",2025-04-10 07:51:00
+5352,4352,5.0,Not happy with delay.,2025-01-20 00:31:00
+5353,4353,4.8,"Order was cancelled, disappointed.",2025-05-15 06:27:00
+5354,4354,4.4,Good but expected faster.,2025-02-14 16:15:00
+5355,4355,5.0,Impressed by the premium handling.,2025-03-30 06:54:00
+5356,4356,5.0,"Packaging top-notch, will order again.",2025-01-17 11:57:00
+5357,4357,4.3,Satisfied with service.,2025-02-10 15:22:00
+5358,4358,4.8,Impressed by the premium handling.,2025-03-31 08:21:00
+5359,4359,5.0,Impressed by the premium handling.,2025-05-19 10:23:00
+5360,4360,3.8,"Order was cancelled, disappointed.",2025-04-28 04:16:00
+5361,4361,4.5,Product was great but delivery delayed.,2025-02-02 08:21:00
+5362,4362,5.0,"Amazing experience, five stars.",2025-02-10 05:53:00
+5363,4363,5.0,"Packaging top-notch, will order again.",2025-01-19 10:38:00
+5364,4364,4.9,Good but expected faster.,2025-03-06 20:03:00
+5365,4365,4.4,Product was great but delivery delayed.,2025-01-04 12:39:00
+5366,4366,4.4,On-time and professional rider.,2025-01-06 03:23:00
+5367,4367,4.6,"Order was cancelled, disappointed.",2025-01-17 20:52:00
+5368,4368,4.9,"Amazing experience, five stars.",2025-02-23 07:57:00
+5369,4369,4.0,"Fast delivery, excellent packaging.",2025-01-10 21:11:00
+5370,4370,4.6,Good but expected faster.,2025-04-01 23:36:00
+5371,4371,4.4,Product was great but delivery delayed.,2025-02-18 06:54:00
+5372,4372,5.0,Good but expected faster.,2025-03-12 19:00:00
+5373,4373,4.7,"Amazing experience, five stars.",2025-03-29 09:31:00
+5374,4374,4.5,On-time and professional rider.,2025-03-23 10:57:00
+5375,4375,4.2,On-time and professional rider.,2025-05-07 09:31:00
+5376,4376,4.0,Good but expected faster.,2025-01-19 14:50:00
+5377,4377,5.0,On-time and professional rider.,2025-05-11 10:01:00
+5378,4378,4.4,Product was great but delivery delayed.,2025-02-11 18:20:00
+5379,4379,5.0,Good but expected faster.,2025-03-09 20:50:00
+5380,4380,3.7,Product was great but delivery delayed.,2025-04-17 12:28:00
+5381,4381,4.5,On-time and professional rider.,2025-04-09 10:49:00
+5382,4382,4.9,Not happy with delay.,2025-03-17 20:18:00
+5383,4383,3.7,Satisfied with service.,2025-01-10 11:41:00
+5384,4384,4.1,"Fast delivery, excellent packaging.",2025-01-21 16:01:00
+5385,4385,4.4,"Order was cancelled, disappointed.",2025-01-27 03:24:00
+5386,4386,4.4,"Amazing experience, five stars.",2025-05-02 06:34:00
+5387,4387,4.7,"Fast delivery, excellent packaging.",2025-02-26 17:06:00
+5388,4388,5.0,Product was great but delivery delayed.,2025-01-07 09:54:00
+5389,4389,4.9,Satisfied with service.,2025-04-08 15:53:00
+5390,4390,4.9,Satisfied with service.,2025-01-24 17:47:00
+5391,4391,5.0,Not happy with delay.,2025-04-10 19:09:00
+5392,4392,5.0,"Packaging top-notch, will order again.",2025-03-24 00:21:00
+5393,4393,3.9,"Packaging top-notch, will order again.",2025-03-10 19:10:00
+5394,4394,4.7,Product was great but delivery delayed.,2025-04-08 23:29:00
+5395,4395,4.7,Satisfied with service.,2025-04-22 12:55:00
+5396,4396,4.5,Not happy with delay.,2025-04-25 14:24:00
+5397,4397,5.0,"Order was cancelled, disappointed.",2025-04-19 08:05:00
+5398,4398,5.0,"Order was cancelled, disappointed.",2025-02-19 23:36:00
+5399,4399,4.4,"Fast delivery, excellent packaging.",2025-03-06 03:06:00
+5400,4400,4.4,Good but expected faster.,2025-02-23 06:55:00
+5401,4401,4.6,"Amazing experience, five stars.",2025-03-05 06:21:00
+5402,4402,4.4,Not happy with delay.,2025-01-21 04:51:00
+5403,4403,4.4,Good but expected faster.,2025-02-03 10:16:00
+5404,4404,4.8,On-time and professional rider.,2025-02-19 08:02:00
+5405,4405,4.0,"Order was cancelled, disappointed.",2025-01-15 19:45:00
+5406,4406,4.9,Product was great but delivery delayed.,2025-02-02 06:07:00
+5407,4407,5.0,Not happy with delay.,2025-02-28 22:30:00
+5408,4408,4.2,Satisfied with service.,2025-04-09 01:24:00
+5409,4409,5.0,Impressed by the premium handling.,2025-03-08 02:18:00
+5410,4410,3.9,Impressed by the premium handling.,2025-01-21 10:19:00
+5411,4411,5.0,"Order was cancelled, disappointed.",2025-03-19 11:45:00
+5412,4412,4.6,Not happy with delay.,2025-04-08 08:41:00
+5413,4413,3.9,Good but expected faster.,2025-01-04 23:41:00
+5414,4414,5.0,Good but expected faster.,2025-01-14 20:02:00
+5415,4415,4.4,Not happy with delay.,2025-01-08 13:47:00
+5416,4416,5.0,"Amazing experience, five stars.",2025-02-17 20:02:00
+5417,4417,4.9,"Order was cancelled, disappointed.",2025-03-07 16:16:00
+5418,4418,5.0,On-time and professional rider.,2025-05-03 11:13:00
+5419,4419,4.9,"Fast delivery, excellent packaging.",2025-04-01 05:41:00
+5420,4420,5.0,Not happy with delay.,2025-03-13 17:36:00
+5421,4421,4.3,"Amazing experience, five stars.",2025-01-16 19:35:00
+5422,4422,4.6,Impressed by the premium handling.,2025-02-18 14:45:00
+5423,4423,4.6,Good but expected faster.,2025-01-01 14:21:00
+5424,4424,4.6,Product was great but delivery delayed.,2025-05-14 14:48:00
+5425,4425,5.0,"Order was cancelled, disappointed.",2025-05-08 11:28:00
+5426,4426,5.0,Good but expected faster.,2025-03-28 22:50:00
+5427,4427,4.4,On-time and professional rider.,2025-04-10 13:00:00
+5428,4428,4.4,"Amazing experience, five stars.",2025-04-16 19:02:00
+5429,4429,2.9,Impressed by the premium handling.,2025-02-28 16:36:00
+5430,4430,4.9,On-time and professional rider.,2025-01-02 21:15:00
+5431,4431,4.4,"Fast delivery, excellent packaging.",2025-01-06 19:39:00
+5432,4432,4.3,"Packaging top-notch, will order again.",2025-01-05 20:06:00
+5433,4433,5.0,Product was great but delivery delayed.,2025-02-18 19:01:00
+5434,4434,4.7,"Fast delivery, excellent packaging.",2025-02-23 07:37:00
+5435,4435,5.0,"Order was cancelled, disappointed.",2025-04-05 04:45:00
+5436,4436,4.5,Good but expected faster.,2025-01-12 22:10:00
+5437,4437,5.0,Satisfied with service.,2025-01-26 14:35:00
+5438,4438,4.9,Satisfied with service.,2025-03-05 14:29:00
+5439,4439,4.7,Impressed by the premium handling.,2025-01-16 23:54:00
+5440,4440,4.7,Not happy with delay.,2025-01-10 10:50:00
+5441,4441,4.8,Good but expected faster.,2025-01-23 12:33:00
+5442,4442,4.9,Satisfied with service.,2025-02-19 10:19:00
+5443,4443,5.0,"Amazing experience, five stars.",2025-03-03 22:09:00
+5444,4444,4.1,"Packaging top-notch, will order again.",2025-01-20 20:47:00
+5445,4445,4.3,Impressed by the premium handling.,2025-04-19 10:31:00
+5446,4446,4.8,Product was great but delivery delayed.,2025-03-13 08:28:00
+5447,4447,4.8,"Fast delivery, excellent packaging.",2025-02-04 04:57:00
+5448,4448,4.6,"Fast delivery, excellent packaging.",2025-03-10 21:45:00
+5449,4449,4.4,Satisfied with service.,2025-03-01 08:16:00
+5450,4450,5.0,Impressed by the premium handling.,2025-03-14 04:10:00
+5451,4451,4.7,Satisfied with service.,2025-03-07 10:08:00
+5452,4452,2.7,"Fast delivery, excellent packaging.",2025-02-27 21:15:00
+5453,4453,2.6,"Order was cancelled, disappointed.",2025-04-09 18:04:00
+5454,4454,4.8,On-time and professional rider.,2025-04-24 23:29:00
+5455,4455,3.8,Good but expected faster.,2025-02-17 06:11:00
+5456,4456,5.0,Impressed by the premium handling.,2025-03-05 06:13:00
+5457,4457,4.7,"Amazing experience, five stars.",2025-03-14 07:24:00
+5458,4458,4.3,Satisfied with service.,2025-01-28 10:05:00
+5459,4459,3.1,Satisfied with service.,2025-02-20 04:59:00
+5460,4460,4.5,Not happy with delay.,2025-04-28 21:34:00
+5461,4461,5.0,"Packaging top-notch, will order again.",2025-02-24 16:46:00
+5462,4462,4.8,Product was great but delivery delayed.,2025-02-12 05:13:00
+5463,4463,5.0,Satisfied with service.,2025-01-10 19:09:00
+5464,4464,5.0,"Amazing experience, five stars.",2025-03-24 17:10:00
+5465,4465,5.0,Product was great but delivery delayed.,2025-03-01 12:55:00
+5466,4466,4.5,"Packaging top-notch, will order again.",2025-04-06 15:37:00
+5467,4467,4.9,Not happy with delay.,2025-03-08 15:14:00
+5468,4468,4.2,Satisfied with service.,2025-01-14 05:49:00
+5469,4469,4.3,Product was great but delivery delayed.,2025-02-16 03:47:00
+5470,4470,4.7,Product was great but delivery delayed.,2025-03-01 17:15:00
+5471,4471,5.0,"Order was cancelled, disappointed.",2025-04-20 18:21:00
+5472,4472,4.7,Product was great but delivery delayed.,2025-02-02 13:26:00
+5473,4473,3.8,"Fast delivery, excellent packaging.",2025-03-24 12:52:00
+5474,4474,4.8,"Packaging top-notch, will order again.",2025-05-06 14:39:00
+5475,4475,4.2,"Amazing experience, five stars.",2025-04-29 10:13:00
+5476,4476,4.3,Not happy with delay.,2025-02-18 17:11:00
+5477,4477,4.9,"Packaging top-notch, will order again.",2025-02-27 12:03:00
+5478,4478,5.0,On-time and professional rider.,2025-04-23 06:06:00
+5479,4479,4.4,"Fast delivery, excellent packaging.",2025-05-13 18:47:00
+5480,4480,4.7,Not happy with delay.,2025-04-04 09:40:00
+5481,4481,4.4,On-time and professional rider.,2025-02-11 07:36:00
+5482,4482,4.2,Product was great but delivery delayed.,2025-04-28 10:21:00
+5483,4483,4.3,"Packaging top-notch, will order again.",2025-02-01 16:58:00
+5484,4484,4.6,"Amazing experience, five stars.",2025-05-12 05:08:00
+5485,4485,4.5,Not happy with delay.,2025-01-13 06:02:00
+5486,4486,4.8,Good but expected faster.,2025-02-18 22:24:00
+5487,4487,4.6,On-time and professional rider.,2025-04-12 03:55:00
+5488,4488,3.1,"Order was cancelled, disappointed.",2025-03-20 11:31:00
+5489,4489,4.8,"Fast delivery, excellent packaging.",2025-02-10 11:36:00
+5490,4490,4.4,"Fast delivery, excellent packaging.",2025-04-14 15:57:00
+5491,4491,5.0,"Order was cancelled, disappointed.",2025-04-05 10:35:00
+5492,4492,4.3,"Fast delivery, excellent packaging.",2025-04-12 15:57:00
+5493,4493,5.0,Impressed by the premium handling.,2025-01-05 01:41:00
+5494,4494,5.0,Impressed by the premium handling.,2025-01-23 08:04:00
+5495,4495,4.9,Not happy with delay.,2025-05-10 03:51:00
+5496,4496,4.0,Good but expected faster.,2025-05-06 04:08:00
+5497,4497,5.0,"Amazing experience, five stars.",2025-02-27 19:38:00
+5498,4498,5.0,Product was great but delivery delayed.,2025-04-20 16:10:00
+5499,4499,4.7,Impressed by the premium handling.,2025-05-11 01:07:00
+5500,4500,5.0,On-time and professional rider.,2025-04-11 04:36:00

@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import os
 from ml_utils import load_data, load_models, predict_eta, predict_highvalue, assign_user_cluster, predict_rider_rating, predict_sentiment
-import joblib
 import os
 
 # Basic config
@@ -96,23 +95,32 @@ with tabs[2]:
 with tabs[3]:
     st.header("Customer Segments Explorer")
     st.write("Segments are precomputed using KMeans (4 clusters). Select a cluster to inspect users.")
-    if 'cluster' not in users.columns:
-        # load cluster assignment from orders/users join performed earlier in the pipeline if available
-        # fallback: read a precomputed mapping from a csv if you saved one; otherwise recompute minimal version
-        st.info('Cluster column not found in users.csv. Using kmeans to compute clusters on the fly.')
-        from sklearn.preprocessing import StandardScaler
-        scaler = joblib.load(os.path.join('models','kmeans_scaler.joblib'))
-        kmeans = joblib.load(os.path.join('models','kmeans_users.joblib'))
-        seg_df = users.copy()
-        seg_df['order_count'] = seg_df.get('order_count', 0)
-        arr = scaler.transform(seg_df[['age','avg_monthly_spend','loyalty_score','order_count']])
-        seg_df['cluster'] = kmeans.predict(arr)
-    else:
-        seg_df = users.copy()
+    try:
+        kmeans = models['kmeans']
+        scaler = models['kmeans_scaler']
+    except Exception as e:
+        st.error("Cluster models not loaded yet. Check models/ or set MODEL_KMEANS_URL in secrets.")
+        st.stop()
+    seg_df = users.copy()
+    if 'order_count' not in seg_df.columns:
+        order_counts = orders.groupby('user_id')['order_id'].count().rename('order_count')
+        seg_df = seg_df.merge(order_counts, left_on='user_id', right_index=True, how='left').fillna({'order_count': 0})
+    for col in ['age','avg_monthly_spend','loyalty_score','order_count']:
+        if col not in seg_df.columns:
+            st.error(f"Missing expected column: {col} in users data.")
+            st.stop()
+    arr = seg_df[['age','avg_monthly_spend','loyalty_score','order_count']].to_numpy()
+    try:
+        arr_scaled = scaler.transform(arr)
+        seg_df['cluster'] = kmeans.predict(arr_scaled)
+    except Exception as e:
+        st.error(f"Failed to compute clusters: {e}")
+        st.stop()
     sel = st.selectbox('Select cluster', sorted(seg_df['cluster'].unique().tolist()))
     st.write('Cluster size:', int((seg_df['cluster']==sel).sum()))
     st.dataframe(seg_df[seg_df['cluster']==sel].head(20))
     st.image(os.path.join('charts','kmeans_user_segments.png'))
+
 
 # --- Riders tab ---
 with tabs[4]:
@@ -149,4 +157,5 @@ with tabs[6]:
     chart_files = [f for f in os.listdir('charts') if f.endswith('.png')]
     for c in chart_files:
         st.subheader(c)
+
         st.image(os.path.join('charts', c))

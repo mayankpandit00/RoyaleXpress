@@ -1,7 +1,5 @@
-# ml_utils.py  (safer lazy-import version)
 import os
 from pathlib import Path
-import joblib
 
 BASE_DIR = Path(__file__).parent.resolve()
 DATA_DIR = BASE_DIR / "data"
@@ -134,4 +132,5 @@ def predict_sentiment(models, text):
     if hasattr(models['sentiment'], "predict_proba"):
         proba = float(models['sentiment'].predict_proba([text])[0].max())
     return int(pred), proba
+
 

@@ -1,187 +1,120 @@
+# app.py
 import streamlit as st
-import os
 import importlib
+import os
+import sys
 
-try:
-    import ml_utils
-except Exception as e:
-    # If ml_utils import fails for some unexpected reason, keep the app running.
-    ml_utils = None
-    _ml_import_error = e
-else:
-    _ml_import_error = None
-
-def ml_available():
-    if ml_utils is None:
-        return False, None, _ml_import_error
-    missing = ml_utils.check_requirements()
-    return (len(missing) == 0), missing, None
-
-available, missing, import_err = ml_available()
-if not available:
-    if import_err:
-        st.error(f"ML utilities module could not be imported: {import_err}")
-    elif missing:
-        st.warning(
-            "ML dependencies are missing in this environment: " + ", ".join(missing) +
-            ".\nAdd them to requirements.txt and redeploy, or use the app without ML features."
-        )
-    # You can still show non-ML parts of your app here
-    st.info("You can still use the UI but ML-backed features are disabled.")
-else:
-    # Safe to call ML functions
-    try:
-        # Example usage — adapt to your actual flow:
-        model_paths = {"eta": "models/eta.joblib", "clf": "models/clf.joblib"}
-        models = ml_utils.load_models(model_paths)
-        st.success("Models loaded successfully.")
-        # Continue with ML-backed UI...
-    except Exception as e:
-        st.error(f"Failed to load models or run ML pipeline: {e}")
-
-# Basic config
 st.set_page_config(page_title='RoyaleXpress', layout='wide')
 
+# -------------------------
+# Try to import ml_utils (best-effort)
+# -------------------------
+_ml_import_error = None
+try:
+    ml_utils = importlib.import_module("ml_utils")
+except Exception as e:
+    ml_utils = None
+    _ml_import_error = e
 
-# Caching load operations
-@st.cache_data
-def get_data():
-    return load_data()
+# -------------------------
+# Local lightweight package check (used if ml_utils isn't available
+# or doesn't implement check_requirements)
+# -------------------------
+def local_check_requirements():
+    """Return list of missing package names for ML operations."""
+    required = ["joblib", "sklearn", "pandas", "numpy"]
+    missing = []
+    for pkg in required:
+        try:
+            __import__(pkg)
+        except Exception:
+            missing.append(pkg)
+    return missing
 
-
-@st.cache_resource
-def get_models():
-    return load_models()
-
-
-users, products, orders, riders, feedback = get_data()
-models = get_models()
-
-# Top-level tabs
-tabs = st.tabs(["Home","ETA","High-Value","Segments","Riders","Sentiment","Charts"])
-
-# --- HOME tab ---
-with tabs[0]:
-    st.title("RoyaleXpress - Luxury Instant Delivery")
-    col1, col2, col3, col4 = st.columns(4)
-    total_orders = len(orders)
-    avg_delivery = orders['delivery_time_minutes'].mean()
-    revenue = orders['order_value'].sum()
-    pos_pct = (feedback['rating']>=4).mean()*100
-
-
-    col1.metric("Total Orders", f"{total_orders}")
-    col2.metric("Avg Delivery (min)", f"{avg_delivery:.1f}")
-    col3.metric("Total Revenue", f"₹{int(revenue):,}")
-    col4.metric("Positive Feedback %", f"{pos_pct:.1f}%")
-
-
-    st.markdown("---")
-    st.subheader("Datasets Preview")
-    st.dataframe(users.head(10))
-    st.write("\n")
-
-# --- ETA tab ---
-with tabs[1]:
-    st.header("ETA Prediction")
-    st.write("Provide order/rider info to get predicted delivery time.")
-    c1, c2 = st.columns(2)
-    with c1:
-        distance_km = st.number_input('Distance (km)', min_value=0.0, value=2.5)
-        traffic_level = st.selectbox('Traffic level', ['low','moderate','high'])
-        order_value = st.number_input('Order value (₹)', min_value=0, value=5000)
-    with c2:
-        avg_speed = st.number_input('Rider avg speed (kmph)', min_value=5.0, value=18.0)
-        loyalty_score = st.number_input('User loyalty score (1-100)', min_value=1, max_value=100, value=60)
-        if st.button('Predict ETA'):
-            pred = predict_eta(models, distance_km, traffic_level, avg_speed, loyalty_score, order_value)
-            st.success(f"Predicted delivery time: {pred:.1f} minutes")
-            st.image(os.path.join('charts','eta_true_vs_pred.png'))
-
-# --- High-Value tab ---
-with tabs[2]:
-    st.header("High-Value Customer Prediction")
-    st.write("Input user-level features to predict whether the user is high-value.")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        age = st.number_input('Age', min_value=18, max_value=100, value=30)
-        loyalty = st.number_input('Loyalty score', min_value=1, max_value=100, value=60)
-    with col2:
-        order_count = st.number_input('Order count', min_value=0, value=5)
-        avg_order_value = st.number_input('Avg order value (₹)', min_value=0, value=4500)
-    with col3:
-        avg_delivery_time = st.number_input('Avg delivery time (min)', min_value=1.0, value=20.0)
-    if st.button('Predict High-Value'):
-        pred, proba = predict_highvalue(
-            models,
-            age,
-            loyalty,
-            order_count,
-            avg_order_value,
-            avg_delivery_time
-        )
-        st.write('Prediction (1 = high value, 0 = not):', pred)
-        if proba is not None:
-            st.write('Probability:', f"{proba:.2f}")
-        st.image(os.path.join('charts', 'highvalue_feature_importance.png'))
-
-
-# --- Segments tab ---
-with tabs[3]:
-    st.header("Customer Segments Explorer")
-    st.write("Segments are precomputed using KMeans (4 clusters). Select a cluster to inspect users.")
-    if 'cluster' not in users.columns:
-        # load cluster assignment from orders/users join performed earlier in the pipeline if available
-        # fallback: read a precomputed mapping from a csv if you saved one; otherwise recompute minimal version
-        st.info('Cluster column not found in users.csv. Using kmeans to compute clusters on the fly.')
-        from sklearn.preprocessing import StandardScaler
-        scaler = joblib.load(os.path.join('models','kmeans_scaler.joblib'))
-        kmeans = joblib.load(os.path.join('models','kmeans_users.joblib'))
-        seg_df = users.copy()
-        seg_df['order_count'] = seg_df.get('order_count', 0)
-        arr = scaler.transform(seg_df[['age','avg_monthly_spend','loyalty_score','order_count']])
-        seg_df['cluster'] = kmeans.predict(arr)
+def check_requirements():
+    """
+    Prefer ml_utils.check_requirements() if available, else do local checks.
+    Returns a list of missing package names.
+    """
+    if ml_utils is not None and hasattr(ml_utils, "check_requirements"):
+        try:
+            return ml_utils.check_requirements()
+        except Exception:
+            # fallback to local check if ml_utils.check_requirements fails for some reason
+            return local_check_requirements()
     else:
-        seg_df = users.copy()
-    sel = st.selectbox('Select cluster', sorted(seg_df['cluster'].unique().tolist()))
-    st.write('Cluster size:', int((seg_df['cluster']==sel).sum()))
-    st.dataframe(seg_df[seg_df['cluster']==sel].head(20))
-    st.image(os.path.join('charts','kmeans_user_segments.png'))
+        return local_check_requirements()
 
-# --- Riders tab ---
-with tabs[4]:
-    st.header('Rider Performance Predictor')
-    st.write('Predict expected rider rating given rider stats.')
-    c1, c2 = st.columns(2)
-    with c1:
-        avg_speed = st.number_input('Avg speed (kmph)', min_value=5.0, value=20.0)
-        experience = st.number_input('Experience (months)', min_value=0, value=12)
-    with c2:
-        rider_order_count = st.number_input('Order count (rider)', min_value=0, value=50)
-        rider_avg_delivery = st.number_input('Avg delivery time (min)', min_value=1.0, value=18.0)
-    if st.button('Predict Rider Rating'):
-        pred = predict_rider_rating(models, avg_speed, experience, rider_order_count, rider_avg_delivery)
-        st.success(f'Predicted rider rating: {pred:.2f} / 5')
-        st.image(os.path.join('charts','rider_feature_importance.png'))
+# -------------------------
+# Data loading: attempt to use ml_utils.load_data() if present,
+# otherwise try to read CSVs using pandas (if available).
+# -------------------------
+@st.cache_data(show_spinner=False)
+def get_data():
+    """
+    Returns tuple: users, products, orders, riders, feedback
+    If data cannot be loaded, returns (None, None, None, None, None)
+    """
+    missing = check_requirements()
+    # prefer ml_utils.load_data if available
+    if ml_utils is not None and hasattr(ml_utils, "load_data"):
+        try:
+            return ml_utils.load_data()
+        except Exception as e:
+            st.warning(f"ml_utils.load_data() raised: {e}. Falling back to CSV read if available.")
 
-# --- Sentiment tab ---
-with tabs[5]:
-    st.header('Sentiment Analysis')
-    text = st.text_area('Paste a review or feedback text here', value='Fast delivery, excellent packaging.')
-    if st.button('Analyze Sentiment'):
-        pred, proba = predict_sentiment(models, text)
-        lbl = 'Positive' if pred==1 else 'Negative'
-        st.write('Sentiment:', lbl)
-        if proba is not None:
-            st.write('Confidence:', f"{proba:.2f}")
-        st.image(os.path.join('charts','sentiment_distribution.png'))
+    # fallback: try to read CSVs from repo root using pandas
+    try:
+        import pandas as pd
+    except Exception as e:
+        st.error("Pandas not available; cannot load datasets. Add 'pandas' to requirements.txt to enable data display.")
+        return (None, None, None, None, None)
 
-# --- Charts tab ---
-with tabs[6]:
-    st.header('Saved Charts')
-    st.write('Pre-generated charts from training. You can also upload new charts to display.')
-    chart_files = [f for f in os.listdir('charts') if f.endswith('.png')]
-    for c in chart_files:
-        st.subheader(c)
-        st.image(os.path.join('charts', c))
+    # Define default CSV filenames (adjust if your files are elsewhere)
+    def load_csv_if_exists(fn):
+        if os.path.exists(fn):
+            try:
+                return pd.read_csv(fn)
+            except Exception as e:
+                st.warning(f"Failed to read {fn}: {e}")
+                return None
+        return None
 
+    users = load_csv_if_exists("users.csv") or load_csv_if_exists("data/users.csv")
+    products = load_csv_if_exists("products.csv") or load_csv_if_exists("data/products.csv")
+    orders = load_csv_if_exists("orders.csv") or load_csv_if_exists("data/orders.csv")
+    riders = load_csv_if_exists("riders.csv") or load_csv_if_exists("data/riders.csv")
+    feedback = load_csv_if_exists("feedback.csv") or load_csv_if_exists("data/feedback.csv")
+
+    # If any are None, create sensible empty DataFrames so basic UI does not crash
+    if users is None: users = pd.DataFrame()
+    if products is None: products = pd.DataFrame()
+    if orders is None: orders = pd.DataFrame()
+    if riders is None: riders = pd.DataFrame()
+    if feedback is None: feedback = pd.DataFrame()
+
+    return (users, products, orders, riders, feedback)
+
+# -------------------------
+# Model loading: only attempt when ML packages are present
+# -------------------------
+@st.cache_resource(show_spinner=False)
+def get_models():
+    """
+    Safely load models (returns dict of models or None).
+    Does not attempt to import joblib/sklearn if they are missing.
+    """
+    missing = check_requirements()
+    # require at least joblib & sklearn to attempt model loads
+    required_for_models = {"joblib", "sklearn", "numpy"}
+    if any(pkg in missing for pkg in required_for_models):
+        return None
+
+    # If ml_utils provides a load_models() use it (preferred)
+    if ml_utils is not None and hasattr(ml_utils, "load_models"):
+        try:
+            return ml_utils.load_models()
+        except Exception as e:
+            # fallback to manual joblib loads if ml_utils.load_models fails
+            st.warning(f"ml_utils.load_models() failed with: {e}. Attempting manual load of joblib models.")
+    # Manual fallback using joblib (loads models from 'mo

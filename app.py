@@ -1,9 +1,43 @@
 import streamlit as st
-import pandas as pd
 import os
-from ml_utils import load_data, load_models, predict_eta, predict_highvalue, assign_user_cluster, predict_rider_rating, predict_sentiment
-import joblib
-import os
+import importlib
+
+try:
+    import ml_utils
+except Exception as e:
+    # If ml_utils import fails for some unexpected reason, keep the app running.
+    ml_utils = None
+    _ml_import_error = e
+else:
+    _ml_import_error = None
+
+def ml_available():
+    if ml_utils is None:
+        return False, None, _ml_import_error
+    missing = ml_utils.check_requirements()
+    return (len(missing) == 0), missing, None
+
+available, missing, import_err = ml_available()
+if not available:
+    if import_err:
+        st.error(f"ML utilities module could not be imported: {import_err}")
+    elif missing:
+        st.warning(
+            "ML dependencies are missing in this environment: " + ", ".join(missing) +
+            ".\nAdd them to requirements.txt and redeploy, or use the app without ML features."
+        )
+    # You can still show non-ML parts of your app here
+    st.info("You can still use the UI but ML-backed features are disabled.")
+else:
+    # Safe to call ML functions
+    try:
+        # Example usage — adapt to your actual flow:
+        model_paths = {"eta": "models/eta.joblib", "clf": "models/clf.joblib"}
+        models = ml_utils.load_models(model_paths)
+        st.success("Models loaded successfully.")
+        # Continue with ML-backed UI...
+    except Exception as e:
+        st.error(f"Failed to load models or run ML pipeline: {e}")
 
 # Basic config
 st.set_page_config(page_title='RoyaleXpress', layout='wide')
@@ -150,3 +184,4 @@ with tabs[6]:
     for c in chart_files:
         st.subheader(c)
         st.image(os.path.join('charts', c))
+
